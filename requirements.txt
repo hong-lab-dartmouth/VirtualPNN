@@ -1,6 +1,6 @@
 # VirtualPNN generator: training and inference dependencies.
 # Built on the Contrastive Unpaired Translation (CUT) framework (Park et al., 2020).
-# Python 3.8 or newer (CI: 3.8 and 3.10). A GPU is recommended, not required. Install a PyTorch
+# Python 3.8 or newer (CI: 3.10 and 3.12). A GPU is recommended, not required. Install a PyTorch
 # build that matches your CUDA driver first (https://pytorch.org), then this file.
 #
 # Versions with which the tests and the weights check ran are given as comments.
