@@ -1,0 +1,34 @@
+model,fold,role,archive_name,bytes,sha256
+VirtualPNN-P+AV,1,generator(H&E->virtual),VirtualPNN-P+AV_Fold1_net_G.pth,45575768,e88cda37fcc1db0f35f7d1d4042cdb1f76ee9d794e7bb5b029a493eb4775e6bb
+VirtualPNN-P,1,generator(H&E->virtual),VirtualPNN-P_Fold1_net_G.pth,45575768,ea9d714103533f1404930397e9f8a84b75cf2c7db235a610d788e1b71621b777
+CUT,1,generator(H&E->virtual),CUT_Fold1_net_G.pth,45575768,1869ad7f8b6eb93c3842e6ec4811e4d1ac0ebb2535ed389530cfbe541ee8008e
+CycleGAN,1,generator(H&E->virtual),CycleGAN_Fold1_net_G.pth,45575886,1d76e0e4da77a1c583e3abbbf78ce39e237e0ad81ad6f132c570932cdfb96ab0
+AI-FFPE,1,generator(H&E->virtual),AI-FFPE_Fold1_net_G.pth,45575768,4ec641c5fe5e60899e913136f11b8e13f7d82934175af4f43956a2892351a41a
+VirtualPNN-P+AV,2,generator(H&E->virtual),VirtualPNN-P+AV_Fold2_net_G.pth,45575768,9bfadc3b8315aca4580596df9d7120db482d179211856629f7831f01ef2c052b
+VirtualPNN-P,2,generator(H&E->virtual),VirtualPNN-P_Fold2_net_G.pth,45575768,ce90db69a71fa164c87a2a078d62085f4235004446498b06b3dc073caaf6a87e
+CUT,2,generator(H&E->virtual),CUT_Fold2_net_G.pth,45575768,1aa9cc4ce72b1d10d802e46d0d209a7c0e4ff019b0918ceb792c32f0159728d9
+CycleGAN,2,generator(H&E->virtual),CycleGAN_Fold2_net_G.pth,45575886,7c4f182496ea4b58a7da8232e9756693f23179f7bb0b03d82c04cb55dd2361c7
+AI-FFPE,2,generator(H&E->virtual),AI-FFPE_Fold2_net_G.pth,45575768,c64f09651b3dc7e32b00240469fb48e3da1857323ed04eed3bc40fe5aa8f3726
+VirtualPNN-P+AV,3,generator(H&E->virtual),VirtualPNN-P+AV_Fold3_net_G.pth,45575768,60ba57a5e844e76963ee876fed5df8774196c98402e55c179c05156fb6eb754c
+VirtualPNN-P,3,generator(H&E->virtual),VirtualPNN-P_Fold3_net_G.pth,45575768,c7baa11c7a45a133aeaf76a5e748c9d1d9947ce4471e541ba0c317bdc533cff7
+CUT,3,generator(H&E->virtual),CUT_Fold3_net_G.pth,45575768,28e57cc6c87480c5b624666808cfd6df0408704d6651526aba2673faee126ec4
+CycleGAN,3,generator(H&E->virtual),CycleGAN_Fold3_net_G.pth,45575886,bc24806d37aa7b1eea14a3a06c2088b02bf70cf96446c56a4f908efdb4aab896
+AI-FFPE,3,generator(H&E->virtual),AI-FFPE_Fold3_net_G.pth,45575768,9969a26e8425c466751903889c09a6d1db84cd7b1c10f5405cd308d5ca07d5cf
+VirtualPNN-P+AV,4,generator(H&E->virtual),VirtualPNN-P+AV_Fold4_net_G.pth,45575768,6951f23689eaace8867ed164f7ae3ecb361f5ba985af2baece394ef634d1f0e2
+VirtualPNN-P,4,generator(H&E->virtual),VirtualPNN-P_Fold4_net_G.pth,45575768,11d6f3644cd6239c4e23374915e152820172b2b75028b9cdb122ceff2eb7b600
+CUT,4,generator(H&E->virtual),CUT_Fold4_net_G.pth,45575768,65a2ea3568af3d8bb2f7ecfde275a10dfa8edfd78ef8bba65895fc9bed8b8512
+CycleGAN,4,generator(H&E->virtual),CycleGAN_Fold4_net_G.pth,45575886,bf6da3561f080829999a8dec33b3af5d0a6440ee2105753b7e7b9aa26abb25fe
+AI-FFPE,4,generator(H&E->virtual),AI-FFPE_Fold4_net_G.pth,45575768,51cdbbce7ff277967f7bd2cfee2c43a4bfb305ea35cf8de87d344001bdcce87e
+VirtualPNN-P+AV,5,generator(H&E->virtual),VirtualPNN-P+AV_Fold5_net_G.pth,45575768,799c155b8cb154d335aa42b3324af0892afb0da4da37cc7b05533f83fec229c0
+VirtualPNN-P,5,generator(H&E->virtual),VirtualPNN-P_Fold5_net_G.pth,45575768,19edb5265814426a83735bd7cf71fb261bfa43628c616d2391253f127308162e
+CUT,5,generator(H&E->virtual),CUT_Fold5_net_G.pth,45575768,082287f393cc10bcbcbbedb541f155a59df9334ac2790eb30fdb126a4f9acf96
+CycleGAN,5,generator(H&E->virtual),CycleGAN_Fold5_net_G.pth,45575886,08f422fcd52028f9d8f735775829377e222f29f76bed80757c7b5a30b3aba2fe
+AI-FFPE,5,generator(H&E->virtual),AI-FFPE_Fold5_net_G.pth,45575768,c886a21543b35dca02ab0dc78a3e84ea39629af94c6c08319f0687927bf38945
+CycleGAN,1,reverse generator(virtual->H&E; loaded by CycleGAN test mode),CycleGAN_Fold1_net_G_B.pth,45575886,fe44e649de0f79aca355315b85e0d52fdfa440f85c0eab66349f1a66462002b6
+CycleGAN,2,reverse generator(virtual->H&E; loaded by CycleGAN test mode),CycleGAN_Fold2_net_G_B.pth,45575886,250185877ee5127005eeb55b1b683fb2be1f24162c915dcb98bd8fc5649af77e
+CycleGAN,3,reverse generator(virtual->H&E; loaded by CycleGAN test mode),CycleGAN_Fold3_net_G_B.pth,45575886,4ae54a1a40edc1fc1e23229afb4b82e0f7da8def2dd40d0c0bae3461df055f4e
+CycleGAN,4,reverse generator(virtual->H&E; loaded by CycleGAN test mode),CycleGAN_Fold4_net_G_B.pth,45575886,589a0e17159c7ea509f55f97fb66669c8052978c9e704d8f81c5cfe6b7d48d65
+CycleGAN,5,reverse generator(virtual->H&E; loaded by CycleGAN test mode),CycleGAN_Fold5_net_G_B.pth,45575886,985b8c40546b54c5ad2ef7aec9cf34d18890f5a4040e16dc10e6681e3a5b5195
+AI-FFPE base,,pretrained base (generator; retraining only),aiffpe_pretrained_base_net_G.pth,45576414,7d469b5d4bb2cec7976e4c85d96890b3792eac78b598d691a033ae9b699b34e2
+AI-FFPE base,,pretrained base (discriminator; retraining only),aiffpe_pretrained_base_net_D.pth,11079908,cce6e811ebacd89f90ef64fae89921c1d60a7a9c0ccbb1ff52fba3269173a52c
+AI-FFPE base,,pretrained base (patch-feature network; retraining only),aiffpe_pretrained_base_net_F.pth,2051747,4d1e69ae8accee243be6e375624f6657034d0d53b3d4e76d099d380708944935

@@ -1,0 +1,24 @@
+# VirtualPNN generator: training and inference dependencies.
+# Built on the Contrastive Unpaired Translation (CUT) framework (Park et al., 2020).
+# Python 3.8 or newer (CI: 3.8 and 3.10). A GPU is recommended, not required. Install a PyTorch
+# build that matches your CUDA driver first (https://pytorch.org), then this file.
+#
+# Versions with which the tests and the weights check ran are given as comments.
+torch>=1.7           # 2.1.0
+torchvision>=0.8     # 0.16.0
+numpy                # 1.26.4. With PyTorch older than 2.3, keep numpy<2.
+Pillow               # 11.0.0
+opencv-python        # 4.8.1   cv2, used in dataset + post-processing
+packaging
+dominate             # 2.9.1   HTML result pages
+
+# Optional, not required for inference:
+#   visdom           # live training curves, only with --display_id > 0; every command in
+#                    # scripts/ passes --display_id -1. Its sdist needs setuptools<81
+#                    # (pkg_resources) to build: pip install 'setuptools<81' visdom
+#   apex             # NVIDIA mixed precision; code falls back if absent
+
+# Post-processing (patch stitching, signal metric) needs nothing beyond numpy, Pillow and opencv-python above.
+
+# Running the tests additionally needs:
+#   pytest

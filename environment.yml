@@ -1,0 +1,27 @@
+# Conda environment for VirtualPNN.
+#
+#   conda env create -f environment.yml
+#   conda activate virtualpnn
+#
+# The pytorch/torchvision build below pulls CUDA 11.8. If your driver needs a different
+# CUDA version, change the pytorch-cuda pin to match; the code has no other CUDA
+# dependency. For CPU-only inference, replace the pytorch-cuda line with `cpuonly`.
+name: virtualpnn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=1.13
+  - torchvision>=0.14
+  - pytorch-cuda=11.8
+  - numpy
+  - pillow
+  - scipy
+  - opencv
+  - packaging
+  - pip
+  - pip:
+      - dominate
+      # visdom is optional (live training curves with --display_id > 0); see requirements.txt

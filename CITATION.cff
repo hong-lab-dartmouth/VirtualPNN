@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "VirtualPNN: virtual perineuronal net staining from hematoxylin and eosin-stained human brain tissue"
+type: software
+version: "1.0"
+repository-code: "https://github.com/hong-lab-dartmouth/VirtualPNN"
+# The trained weights are distributed separately as VirtualPNN_weights_v1.0.zip (CC BY 4.0); see README.md.
+authors:
+  - family-names: Natarajan
+    given-names: Vishva
+  - family-names: Shukla
+    given-names: Tanmay
+  - family-names: Palisoul
+    given-names: Scott
+  - family-names: Sadanandappa
+    given-names: Madhumala
+  - family-names: Lin
+    given-names: Chun-Chieh
+  - family-names: Zanazzi
+    given-names: George
+  - family-names: Hong
+    given-names: Jennifer
+  - family-names: Hassanpour
+    given-names: Saeed
+license: BSD-3-Clause
+keywords:
+  - virtual staining
+  - perineuronal nets
+  - aggrecan
+  - hematoxylin and eosin
+  - generative deep learning
+  - neuropathology
+preferred-citation:
+  type: article
+  title: "Unpaired generative virtual aggrecan staining of perineuronal nets from hematoxylin and eosin-stained sections of human brain"
+  journal: "Acta Neuropathologica Communications"
+  authors:
+    - family-names: Natarajan
+      given-names: Vishva
+    - family-names: Shukla
+      given-names: Tanmay
+    - family-names: Palisoul
+      given-names: Scott
+    - family-names: Sadanandappa
+      given-names: Madhumala
+    - family-names: Lin
+      given-names: Chun-Chieh
+    - family-names: Zanazzi
+      given-names: George
+    - family-names: Hong
+      given-names: Jennifer
+    - family-names: Hassanpour
+      given-names: Saeed
+  year: 2026

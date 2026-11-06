@@ -1,0 +1,18 @@
+python train.py \
+--dataroot ../PNN_finetune/cv_splits/fold_3 \
+--name AIFFPE_Fold3 \
+--continue_train \
+--pretrained_name aiffpe_weights \
+--CUT_mode CUT \
+--checkpoints_dir checkpoints \
+--epoch 5 \
+--verbose \
+--n_epochs 20 \
+--n_epochs_decay 20 \
+--batch_size 8 \
+--load_size 256 \
+--crop_size 256 \
+--gpu_id 2 
+
+
+
