@@ -1,9 +1,9 @@
 BSD 3-Clause License
 
-Copyright (c) 2026, the VirtualPNN authors
+Copyright (c) 2026, Vishva Natarajan
 All rights reserved.
 
-This licence covers the VirtualPNN authors' own contributions. The software is derived
+This licence covers Vishva Natarajan's own contributions. The software is derived
 from AI-FFPE (DeepMIA Lab) and from Contrastive Unpaired Translation /
 pytorch-CycleGAN-and-pix2pix (Taesung Park, Jun-Yan Zhu and others); the files that
 originated there remain under their own BSD-style licences, reproduced verbatim in
