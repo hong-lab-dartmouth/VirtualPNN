@@ -100,8 +100,8 @@ fewer generator steps. GAN training is stochastic: retraining reproduces the met
 
 ## Patient-grouped check
 
-The paper also reports a patient-grouped check: eight recipes retrained on five folds of whole
-patients, including CycleGAN and AI-FFPE at equal generator steps and learning rate. Those runs are
+The paper also reports a patient-grouped check: ten recipes retrained on five folds of whole
+patients, including CUT, CycleGAN and AI-FFPE at equal generator steps and learning rate. Those runs are
 not released. The design and results are in the paper's Supplementary Information.
 
 ## Names
