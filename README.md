@@ -104,6 +104,13 @@ The paper also reports a patient-grouped check: ten recipes retrained on five fo
 patients, including CUT, CycleGAN and AI-FFPE at equal generator steps and learning rate. Those runs are
 not released. The design and results are in the paper's Supplementary Information.
 
+## Reference classifier
+
+`reference_classifier/` holds the supervised per-cell classifier that the paper uses as a reference for the
+generators: its code, the fifteen fitted logistic-regression models, the fold specification and the per-cell
+out-of-fold scores (release v1.1). It is not part of VirtualPNN and produces no image. See
+[reference_classifier/README.md](reference_classifier/README.md).
+
 ## Names
 
 | Paper | Run name | Released file |
@@ -127,6 +134,7 @@ util/          framework utilities
 postprocess/   reconstruct_noa.py (patches to cores), signal_ratio.py (stained-pixel fraction)
 scripts/       per-fold train and test commands (baselines/), recorded options (train_opt/)
 tests/         unit tests and a check with real weights
+reference_classifier/  the paper's supervised per-cell classifier: code, weights, folds and per-cell scores
 ```
 
 ## Tests

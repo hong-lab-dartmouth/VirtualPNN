@@ -2,9 +2,10 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
 title: "VirtualPNN: virtual perineuronal net staining from hematoxylin and eosin-stained human brain tissue"
 type: software
-version: "1.0"
+version: "1.1"
 repository-code: "https://github.com/hong-lab-dartmouth/VirtualPNN"
-# The trained weights are distributed separately as VirtualPNN_weights_v1.0.zip (CC BY 4.0); see README.md.
+# The trained generator weights are distributed separately as VirtualPNN_weights_v1.0.zip (CC BY 4.0); see README.md.
+# Version 1.1 adds reference_classifier/ (code, weights and per-cell scores of the supervised classifier).
 authors:
   - family-names: Natarajan
     given-names: Vishva
